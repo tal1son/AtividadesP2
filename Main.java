@@ -78,7 +78,7 @@ public class Main {
         System.out.println(carrinho.getContents());
         System.out.println("Total: R$" + String.format("%.2f", carrinho.getTotalPrice()));
 
-        // Removendo um item
+        
         carrinho.removeProduct(produto2);
         System.out.println("\nApós remover a Calça Jeans:");
         System.out.println("Itens no carrinho (" + carrinho.getItemCount() + "):");
